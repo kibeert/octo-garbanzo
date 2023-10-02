@@ -4,11 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootsrap 3</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">\
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Shanga Art Gallery</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Page 1-1</a></li>
+                <li><a href="#">Page 1-2</a></li>
+                <li><a href="#">Page 1-3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Page 2</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </nav>
+     
+        <div class="jumbotron">
+            <h1>bootstrap 3</h1>
+            <p>Learning the basics of bootstrap 3</p>
+        </div>
+      
+        
+    <div class="cointainer" id="cointainer1">
+        
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <a href="images/0e3498f988a245d0a8fcd41cc14c2371.jpg" target="_blank">
+                        <img src="images/0e3498f988a245d0a8fcd41cc14c2371.jpg" alt="background images" >
+                <div class="caption">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo ex 
+                </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <a href="images/1b83ca5a54940ffceded7829a42c5adf.jpg" target="_blank">
+                        <img src="images/1b83ca5a54940ffceded7829a42c5adf.jpg" alt="background image" >
+                        <div class="caption">
+                            iste ad quo excepturi, laboriosam pariatur recusandae saepe repellat culpa. At!
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <a href="images/1f476ba1a784f8750bacb054d41b06f7.jpg" target="_blank">
+                        <img src="images/1f476ba1a784f8750bacb054d41b06f7.jpg" alt="background images">
+                <div class="caption">
+                    vero numquam exercitationem tenetur? Aperiam atque laboriosam fugiat reprehenderit minus
+                </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+               <div class="thumbnail">
+                <a href="https://www.youtube.com/embed/k5TQidx2WkI?si=8qrZAUcma9o1O1z5" target="_blank">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/k5TQidx2WkI?si=8qrZAUcma9o1O1z5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="embed-responsive-item"></iframe>
+                        <div class="caption">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        </div>
+                    </div>
+                </a>
+               </div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
